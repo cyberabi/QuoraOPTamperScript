@@ -6,8 +6,8 @@
 // @author       Christopher Burke
 // @match        https://www.quora.com/*/log
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=quora.com
-// @updateURL    https://github.com/cyberabi/QuoraOPTamperScript/blob/main/FindQuoraOP.user.js
-// @downloadURL  https://github.com/cyberabi/QuoraOPTamperScript/blob/main/FindQuoraOP.user.js
+// @updateURL    https://github.com/cyberabi/QuoraOPTamperScript/raw/main/FindQuoraOP.user.js
+// @downloadURL  https://github.com/cyberabi/QuoraOPTamperScript/raw/main/FindQuoraOP.user.js
 // @require http://code.jquery.com/jquery-latest.js
 // ==/UserScript==
 
