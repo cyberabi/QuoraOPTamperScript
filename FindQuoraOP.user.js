@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         Quora Question OP Finder
 // @namespace    http://cyberabi.com/
-// @version      0.3
+// @version      0.4
 // @description  Find the OP of a Quora question from the log page
 // @author       Christopher Burke
-// @match        https://www.quora.com/*/log
+// @match        https://*.quora.com/*/log
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=quora.com
 // @updateURL    https://github.com/cyberabi/QuoraOPTamperScript/raw/main/FindQuoraOP.user.js
 // @downloadURL  https://github.com/cyberabi/QuoraOPTamperScript/raw/main/FindQuoraOP.user.js
