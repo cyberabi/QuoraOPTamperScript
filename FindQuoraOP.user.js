@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Quora Question OP Finder
 // @namespace    http://cyberabi.com/
-// @version      0.2
+// @version      0.3
 // @description  Find the OP of a Quora question from the log page
 // @author       Christopher Burke
 // @match        https://www.quora.com/*/log
