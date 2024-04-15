@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Quora Question OP Finder
 // @namespace    http://cyberabi.com/
-// @version      0.5
+// @version      0.6
 // @description  Find the OP of a Quora question from the log page
 // @author       Christopher Burke
 // @match        https://*.quora.com/*/log
@@ -26,13 +26,17 @@ $(document).ready(function() {
         elementsA.forEach((child) => {
             if (!found && child.innerText === opMarker1) {
                 const parent = child.parentNode;
-                const parentText = parent.innerText;
+                var parentText = parent.innerText;
                 if (parent.nodeName.toLowerCase() === 'div' && parentText.search(opRegEx1) === 0) {
                     // Found the OP's name and profile link
                     // Make sure it's visible
                     clearInterval(_autoScroller);
                     found = true;
                     window.scrollTo(0, window.scrollY + window.innerHeight);
+                    var userName = parentText.split("\n")[1];
+                    if (userName === "Quora Prompt Generator") {
+                        parentText += "\n(+++ authenticated +++)";
+                    }
                     alert(parentText);
                 }
             }
