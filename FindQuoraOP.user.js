@@ -51,6 +51,8 @@ $(document).ready(function() {
     }, 100);
 })();
 
+// META: Begin Merged File
+
 // Quick and dirty implementation of Levenshtein edit distance; MODIFIED
 // Source: https://www.30secondsofcode.org/js/s/levenshtein-distance/
 // License: Creative Commons Attribution 4.0 International
@@ -69,6 +71,10 @@ function levenshteinDistance(s, t) {
     }
     return arr[t.length][s.length];
 };
+
+// META: End Merged File
+
+// META: Begin Merged File
 
 // UNICODE to ASCII folding code; MODIFIED
 // Source: https://www.npmjs.com/package/fold-to-ascii
@@ -772,3 +778,5 @@ var mapping = new Map([
     [0x2053, '~'], [0xFF5E, '~']
 
 ]);
+
+// META: End Merged File
